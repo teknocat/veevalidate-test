@@ -64,6 +64,14 @@
             </v-row>
           </v-card-text>
         </v-card>
+
+        <div class="text-center">
+          <VuetifyDialog label="Vuetifyダイアログ"/>
+
+          <VeeValidateProblemDialog label="＋VeeValidateダイアログ(未対策)"/>
+
+          <VeeValidateFixedDialog label="＋VeeValidateダイアログ(対策済)"/>
+        </div>
       </v-container>
     </v-content>
   </v-app>
@@ -72,6 +80,9 @@
 <script>
 import VuetifyForm from './components/VuetifyForm';
 import VeeValidateForm from './components/VeeValidateForm';
+import VuetifyDialog from './components/VuetifyDialog';
+import VeeValidateProblemDialog from './components/VeeValidateProblemDialog';
+import VeeValidateFixedDialog from './components/VeeValidateFixedDialog';
 
 export default {
   name: 'App',
@@ -79,6 +90,9 @@ export default {
   components: {
     VuetifyForm,
     VeeValidateForm,
+    VuetifyDialog,
+    VeeValidateProblemDialog,
+    VeeValidateFixedDialog,
   },
 
   data: () => ({
