@@ -22,3 +22,5 @@ pnpm-debug.log*
 *.sw?
 
 .node-version
+/tests/e2e/screenshots
+/tests/e2e/videos

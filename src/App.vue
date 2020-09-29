@@ -39,20 +39,20 @@
 
     <v-content>
       <v-container>
-        <v-card>
+        <v-card id="form-vuetify">
           <v-card-title>
             Vuetify組み込み
           </v-card-title>
           <v-card-text>
             <v-row class="text-center">
               <v-col cols="12">
-                <VuetifyForm/>
+                <VuetifyForm />
               </v-col>
             </v-row>
           </v-card-text>
         </v-card>
 
-        <v-card class="my-5">
+        <v-card class="my-5" id="form-vee-validate">
           <v-card-title>
             VeeValidate
           </v-card-title>
