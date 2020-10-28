@@ -1,6 +1,6 @@
 {
   "name": "veevalidate-test",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -12,6 +12,7 @@
     "core-js": "^3.6.5",
     "vee-validate": "^3.4.0",
     "vue": "^2.6.12",
+    "vue-meta": "^2.4.0",
     "vuetify": "^2.3.10"
   },
   "devDependencies": {

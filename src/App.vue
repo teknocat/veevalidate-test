@@ -86,6 +86,9 @@ import VeeValidateFixedDialog from './components/VeeValidateFixedDialog';
 
 export default {
   name: 'App',
+  metaInfo: {
+    title: 'Vue Meta Test App',
+  },
 
   components: {
     VuetifyForm,
