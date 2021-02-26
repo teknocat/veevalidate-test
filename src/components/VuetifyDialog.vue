@@ -34,6 +34,7 @@
           <v-radio label="Burkina Faso" value="burkina"></v-radio>
           <v-radio label="Burma" value="burma"></v-radio>
           <v-radio label="Burundi" value="burundi"></v-radio>
+          <v-radio label="Japan" value="japan"></v-radio>
         </v-radio-group>
       </v-card-text>
       <v-divider></v-divider>
