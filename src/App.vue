@@ -74,6 +74,15 @@
         </div>
       </v-container>
     </v-content>
+
+    <v-footer padless>
+      <v-col
+          class="text-center"
+          cols="12"
+      >
+        {{ version() }}
+      </v-col>
+    </v-footer>
   </v-app>
 </template>
 
@@ -83,6 +92,7 @@ import VeeValidateForm from './components/VeeValidateForm';
 import VuetifyDialog from './components/VuetifyDialog';
 import VeeValidateProblemDialog from './components/VeeValidateProblemDialog';
 import VeeValidateFixedDialog from './components/VeeValidateFixedDialog';
+import { GLOBAL } from './global';
 
 export default {
   name: 'App',
@@ -101,5 +111,11 @@ export default {
   data: () => ({
     //
   }),
+
+  methods: {
+    version() {
+      return GLOBAL.VERSION;
+    },
+  }
 };
 </script>
