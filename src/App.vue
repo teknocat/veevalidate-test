@@ -37,7 +37,7 @@
       </v-btn>
     </v-app-bar>
 
-    <v-content>
+    <v-main>
       <v-container>
         <v-card id="form-vuetify">
           <v-card-title>
@@ -72,8 +72,14 @@
 
           <VeeValidateFixedDialog label="＋VeeValidateダイアログ(対策済)"/>
         </div>
+
+        <div class="text-center">
+          <CatDialog label="猫"/>
+
+          <WeatherDialog label="天気"/>
+        </div>
       </v-container>
-    </v-content>
+    </v-main>
 
     <v-footer padless>
       <v-col
@@ -92,7 +98,9 @@ import VeeValidateForm from './components/VeeValidateForm';
 import VuetifyDialog from './components/VuetifyDialog';
 import VeeValidateProblemDialog from './components/VeeValidateProblemDialog';
 import VeeValidateFixedDialog from './components/VeeValidateFixedDialog';
+import CatDialog from "@/components/CatDialog";
 import { GLOBAL } from './global';
+import WeatherDialog from "@/components/WeatherDialog";
 
 export default {
   name: 'App',
@@ -106,6 +114,8 @@ export default {
     VuetifyDialog,
     VeeValidateProblemDialog,
     VeeValidateFixedDialog,
+    CatDialog,
+    WeatherDialog,
   },
 
   data: () => ({
